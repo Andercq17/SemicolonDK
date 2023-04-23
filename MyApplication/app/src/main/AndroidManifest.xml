@@ -13,6 +13,27 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".Formulas"
+            android:exported="false" />
+        <activity
+            android:name=".FlujoMagnetico"
+            android:exported="false" />
+        <activity
+            android:name=".HelmHoltz"
+            android:exported="false" />
+        <activity
+            android:name=".LAmpere"
+            android:exported="false" />
+        <activity
+            android:name=".LBiotSavart"
+            android:exported="false" />
+        <activity
+            android:name=".FMCorriente"
+            android:exported="false" />
+        <activity
+            android:name=".FMCarga"
+            android:exported="false" />
+        <activity
             android:name=".OpcionesMagnetismo"
             android:exported="false" />
         <activity
