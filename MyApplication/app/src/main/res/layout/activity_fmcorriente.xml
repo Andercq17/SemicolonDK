@@ -6,4 +6,262 @@
     android:layout_height="match_parent"
     tools:context=".FMCorriente">
 
+    <LinearLayout
+        android:layout_width="429dp"
+        android:layout_height="924dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="19dp"
+                android:layout_height="112dp"
+                android:layout_weight="1"
+                android:contentDescription="boton de regreso"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="155dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:scaleX="1.8"
+                android:scaleY="1.8"
+                android:text="F. M. en corriente" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="35dp"
+                android:layout_height="116dp"
+                android:layout_weight="1"
+                android:contentDescription="Boton logo"
+                tools:srcCompat="@tools:sample/avatars" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="401dp"
+            android:layout_height="57dp"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="200px"
+            android:scaleX="1.4"
+            android:scaleY="1.4"
+            android:text="Formulas:" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="match_parent"
+            android:layout_height="162dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="26dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:scaleX="2"
+                android:scaleY="2"
+                android:text="θ:" />
+
+            <EditText
+                android:id="@+id/editTextText8"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number|numberDecimal" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:scaleX="2"
+                android:scaleY="2"
+                android:text="I:" />
+
+            <EditText
+                android:id="@+id/editTextText9"
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number|numberDecimal" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="53dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:scaleX="2"
+                android:scaleY="2"
+                android:text="L:" />
+
+            <EditText
+                android:id="@+id/editTextText10"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number|numberDecimal" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:scaleX="2"
+                android:scaleY="2"
+                android:text="B:" />
+
+            <EditText
+                android:id="@+id/editTextText11"
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number|numberDecimal" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="53dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:scaleX="2"
+                android:scaleY="2"
+                android:text="F:" />
+
+            <EditText
+                android:id="@+id/editTextText10"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number|numberDecimal" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:scaleX="2"
+                android:scaleY="2"
+                android:text="¿Qué desea calcular?" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:text="Respuesta" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="14dp"
+                android:layout_height="34dp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="221dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#BABABA"
+                android:gravity="right|center_vertical"
+                android:paddingLeft="100px" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:scaleX="2"
+                android:scaleY="2" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="34dp" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
