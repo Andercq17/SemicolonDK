@@ -49,6 +49,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Formulas:" />
+
         <ImageView
             android:id="@+id/imageView9"
             android:layout_width="match_parent"
@@ -138,7 +144,9 @@
             android:id="@+id/txtCalculado"
             android:layout_width="match_parent"
             android:layout_height="59dp"
-            android:text="0.0" />
+            android:text="0.0"
+            android:textAlignment="center"
+            android:textSize="20sp" />
 
     </LinearLayout>
 
