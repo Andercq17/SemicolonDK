@@ -70,7 +70,7 @@
             android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/numA"
+                android:id="@+id/numA_MUA"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -79,7 +79,7 @@
                 android:inputType="numberDecimal" />
 
             <EditText
-                android:id="@+id/numVini"
+                android:id="@+id/numVini_MUA"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -98,7 +98,7 @@
             android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/numVfin"
+                android:id="@+id/numVfin_MUA"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -107,7 +107,7 @@
                 android:inputType="numberDecimal" />
 
             <EditText
-                android:id="@+id/numTi"
+                android:id="@+id/numTi_MUA"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -121,7 +121,7 @@
             android:layout_height="24dp" />
 
         <EditText
-            android:id="@+id/numDist"
+            android:id="@+id/numDist_MUA"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:ems="10"
@@ -140,13 +140,13 @@
             android:layout_height="62dp" />
 
         <Button
-            android:id="@+id/btn_calcular"
+            android:id="@+id/btn_calcular_MUA"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Calcular" />
 
         <TextView
-            android:id="@+id/txt_calculado"
+            android:id="@+id/txt_calculado_MUA"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="0.0"

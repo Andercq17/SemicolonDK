@@ -27,7 +27,7 @@ public class MUAModel {
         return res+" m/s^2";
     }
 
-    public static String getAx(double vo, double x, double vf){
+    public static String getAX(double vo, double x, double vf){
         double res = (vf*vf-vo*vo)/2*x;
         return res+" m/s^2";
     }

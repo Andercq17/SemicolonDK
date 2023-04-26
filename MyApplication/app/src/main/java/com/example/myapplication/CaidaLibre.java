@@ -62,6 +62,9 @@ public class CaidaLibre extends AppCompatActivity {
                             System.out.println("Error: "+e.getMessage());
                         }
                     }
+                    else{
+                        txt_calculado.setText("Datos de entrada no válidos");
+                    }
 
                 }
 
