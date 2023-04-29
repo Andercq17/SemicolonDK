@@ -9,13 +9,21 @@ import android.widget.Button;
 
 public class MainMenu extends AppCompatActivity {
 
+    Button btn_OMag;
     Button btn_OM;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
         btn_OM = findViewById(R.id.btn_mecanica);
-
+        btn_OMag = findViewById(R.id.btn_electro);
+        btn_OMag.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent OMag = new Intent(MainMenu.this, OpcionesMagnetismo.class);
+                startActivity(OMag);
+            }
+        });
         btn_OM.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
