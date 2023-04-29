@@ -6,115 +6,107 @@
     android:layout_height="match_parent"
     tools:context=".OpcionesMagnetismo">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        app:layout_constraintEnd_toStartOf="@+id/lbl_opciones"
-        app:layout_constraintHorizontal_bias="0.533"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="59dp" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="69dp"
-        android:layout_height="65dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.52"
-        app:layout_constraintStart_toEndOf="@+id/lbl_opciones"
-        tools:layout_editor_absoluteY="42dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <EditText
-        android:id="@+id/lbl_opciones"
-        android:layout_width="168dp"
-        android:layout_height="46dp"
-        android:ems="10"
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:gravity="center"
-        android:inputType="text"
-        android:text="Opciones"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="59dp" />
-
-    <Button
-        android:id="@+id/btn_fm_carga"
-        android:layout_width="360dp"
-        android:layout_height="65dp"
-        android:text="Fuerza magnética en una carga"
-        app:layout_constraintBottom_toTopOf="@+id/btn_fm_corriente"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lbl_opciones"
-        app:layout_constraintVertical_bias="0.689" />
-
-    <Button
-        android:id="@+id/btn_ley_biotsavart"
-        android:layout_width="360dp"
-        android:layout_height="65dp"
-        android:layout_marginBottom="28dp"
-        android:text="Ley Biot-Savart"
-        app:layout_constraintBottom_toTopOf="@+id/btn_ley_ampere"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btn_ley_ampere"
-        android:layout_width="360dp"
-        android:layout_height="65dp"
-        android:layout_marginBottom="28dp"
-        android:text="Ley Ampere"
-        app:layout_constraintBottom_toTopOf="@+id/btn_bobinas"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btn_flujo"
-        android:layout_width="360dp"
-        android:layout_height="65dp"
-        android:layout_marginBottom="36dp"
-        android:text="Flujo Magnético"
-        app:layout_constraintBottom_toTopOf="@+id/btn_formulas"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btn_fm_corriente"
-        android:layout_width="360dp"
-        android:layout_height="65dp"
-        android:layout_marginBottom="28dp"
-        android:text="F. M sobre corriente en un campo B"
-        app:layout_constraintBottom_toTopOf="@+id/btn_ley_biotsavart"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btn_bobinas"
-        android:layout_width="360dp"
-        android:layout_height="65dp"
-        android:layout_marginBottom="24dp"
-        android:text="Helm-Holtz"
-        app:layout_constraintBottom_toTopOf="@+id/btn_flujo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btn_formulas"
-        android:layout_width="360dp"
-        android:layout_height="65dp"
-        android:layout_marginBottom="68dp"
-        android:text="Formulas"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="19dp"
+                android:layout_height="112dp"
+                android:layout_weight="1"
+                android:contentDescription="boton de regreso"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="155dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:scaleX="1.8"
+                android:scaleY="1.8"
+                android:text="F. M. en corriente" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="35dp"
+                android:layout_height="116dp"
+                android:layout_weight="1"
+                android:contentDescription="Boton logo"
+                tools:srcCompat="@tools:sample/avatars" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_flujo"
+            android:layout_width="360dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Flujo Magnético" />
+
+        <Button
+            android:id="@+id/btn_formulas"
+            android:layout_width="360dp"
+            android:layout_height="65dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Formulas" />
+
+        <Button
+            android:id="@+id/btn_ley_ampere"
+            android:layout_width="360dp"
+            android:layout_height="65dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Ley Ampere" />
+
+        <Button
+            android:id="@+id/btn_fm_carga"
+            android:layout_width="360dp"
+            android:layout_height="65dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Fuerza magnética en una carga" />
+
+        <Button
+            android:id="@+id/btn_fm_corriente"
+            android:layout_width="360dp"
+            android:layout_height="65dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="F. M sobre corriente en un campo B" />
+
+        <Button
+            android:id="@+id/btn_ley_biotsavart"
+            android:layout_width="360dp"
+            android:layout_height="65dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Ley Biot-Savart" />
+
+        <Button
+            android:id="@+id/btn_bobinas"
+            android:layout_width="360dp"
+            android:layout_height="65dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Helm-Holtz" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
