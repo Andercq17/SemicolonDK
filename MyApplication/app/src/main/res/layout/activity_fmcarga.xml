@@ -91,7 +91,7 @@
                     android:text="θ:" />
 
                 <EditText
-                    android:id="@+id/editTextText8"
+                    android:id="@+id/txt_area"
                     android:layout_width="102dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -109,7 +109,7 @@
                     android:text="V:" />
 
                 <EditText
-                    android:id="@+id/editTextText9"
+                    android:id="@+id/txt_angulo"
                     android:layout_width="131dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -137,7 +137,7 @@
                     android:text="q:" />
 
                 <EditText
-                    android:id="@+id/editTextText10"
+                    android:id="@+id/txt_campo"
                     android:layout_width="140dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -184,7 +184,7 @@
                     android:text="F:" />
 
                 <EditText
-                    android:id="@+id/editTextText10"
+                    android:id="@+id/txt_campo"
                     android:layout_width="140dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -213,7 +213,7 @@
                     android:text="¿Qué desea calcular?" />
 
                 <Spinner
-                    android:id="@+id/spinner2"
+                    android:id="@+id/cb"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1" />

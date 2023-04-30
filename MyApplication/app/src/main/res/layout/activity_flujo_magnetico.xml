@@ -82,7 +82,7 @@
 
                 <TextView
                     android:id="@+id/textView24"
-                    android:layout_width="wrap_content"
+                    android:layout_width="51dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
@@ -91,8 +91,8 @@
                     android:text="θ:" />
 
                 <EditText
-                    android:id="@+id/editTextText9"
-                    android:layout_width="131dp"
+                    android:id="@+id/txt_angulo"
+                    android:layout_width="113dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
@@ -109,7 +109,7 @@
                     android:text="A:" />
 
                 <EditText
-                    android:id="@+id/editTextText8"
+                    android:id="@+id/txt_area"
                     android:layout_width="102dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -138,8 +138,8 @@
                     android:text="B:" />
 
                 <EditText
-                    android:id="@+id/editTextText10"
-                    android:layout_width="140dp"
+                    android:id="@+id/txt_campo"
+                    android:layout_width="106dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
@@ -156,7 +156,7 @@
                     android:text="φ:" />
 
                 <EditText
-                    android:id="@+id/editTextText"
+                    android:id="@+id/txt_phi"
                     android:layout_width="102dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -185,7 +185,7 @@
                     android:text="¿Qué desea calcular?" />
 
                 <Spinner
-                    android:id="@+id/spinner2"
+                    android:id="@+id/cb"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1" />

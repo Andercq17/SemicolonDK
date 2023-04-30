@@ -107,7 +107,7 @@
                     android:text="N:" />
 
                 <EditText
-                    android:id="@+id/editTextText9"
+                    android:id="@+id/txt_angulo"
                     android:layout_width="131dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -125,7 +125,7 @@
                     android:text="I:" />
 
                 <EditText
-                    android:id="@+id/editTextText8"
+                    android:id="@+id/txt_area"
                     android:layout_width="102dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -154,7 +154,7 @@
                     android:text="B:" />
 
                 <EditText
-                    android:id="@+id/editTextText10"
+                    android:id="@+id/txt_campo"
                     android:layout_width="140dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -172,7 +172,7 @@
                     android:text="R:" />
 
                 <EditText
-                    android:id="@+id/editTextText"
+                    android:id="@+id/txt_phi"
                     android:layout_width="102dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -201,7 +201,7 @@
                     android:text="¿Qué desea calcular?" />
 
                 <Spinner
-                    android:id="@+id/spinner2"
+                    android:id="@+id/cb"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1" />
