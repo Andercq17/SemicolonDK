@@ -8,23 +8,24 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="365dp"
-        android:layout_height="47dp"
+        android:layout_width="346dp"
+        android:layout_height="55dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="55dp"
-            android:layout_height="75dp"
+        <ImageButton
+            android:id="@+id/imgbtn_volver_mua"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:contentDescription="volver"
+            app:srcCompat="@drawable/volver" />
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="wrap_content"
+            android:layout_width="120dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="MUA"
@@ -40,8 +41,8 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="349dp"
-        android:layout_height="590dp"
+        android:layout_width="331dp"
+        android:layout_height="562dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,12 +58,14 @@
         <ImageView
             android:id="@+id/imageView10"
             android:layout_width="match_parent"
-            android:layout_height="96dp"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:layout_height="90dp"
+            android:contentDescription="formulas"
+            android:visibility="visible"
+            app:srcCompat="@drawable/formulas_mua" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="12dp" />
+            android:layout_height="8dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -90,7 +93,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="24dp" />
+            android:layout_height="18dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -118,7 +121,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="24dp" />
+            android:layout_height="18dp" />
 
         <EditText
             android:id="@+id/numDist_MUA"

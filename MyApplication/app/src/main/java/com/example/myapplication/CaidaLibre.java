@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -22,6 +23,7 @@ public class CaidaLibre extends AppCompatActivity {
 
 
     TextView txt_calculado;
+    ImageButton btn_volver_cl;
     EditText h, vo, vf, t;
     ArrayList<String> opciones = new ArrayList<String>();
     @Override
@@ -32,6 +34,8 @@ public class CaidaLibre extends AppCompatActivity {
         btn_calcular = findViewById(R.id.btnCalcular);
         spn_opciones = findViewById(R.id.spinnerCL);
         txt_calculado = findViewById(R.id.txtCalculado);
+        btn_volver_cl = findViewById(R.id.imgbtn_volver_cl);
+
         h = findViewById(R.id.numH);
         vo = findViewById(R.id.numVo);
         vf = findViewById(R.id.numVf);
@@ -45,6 +49,13 @@ public class CaidaLibre extends AppCompatActivity {
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_spinner_item,opciones);
         spn_opciones.setAdapter(adapter);
 
+        btn_volver_cl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent volver_cl = new Intent(CaidaLibre.this, OpcionesMecanica.class);
+                startActivity(volver_cl);
+            }
+        });
         btn_calcular.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {

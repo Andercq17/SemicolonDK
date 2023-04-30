@@ -2,11 +2,13 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -20,7 +22,7 @@ public class MUA extends AppCompatActivity {
     Button btn_calcular_mua;
     Spinner spn_opciones_mua;
 
-
+    ImageButton btn_volver_mua;
     TextView txt_calculado_mua;
     EditText a, vo, vf, t, x;
     ArrayList<String> opciones_mua = new ArrayList<String>();
@@ -33,6 +35,7 @@ public class MUA extends AppCompatActivity {
         btn_calcular_mua = findViewById(R.id.btn_calcular_MUA);
         spn_opciones_mua = findViewById(R.id.spinner_MUA);
         txt_calculado_mua = findViewById(R.id.txt_calculado_MUA);
+        btn_volver_mua = findViewById(R.id.imgbtn_volver_mua);
 
         a = findViewById(R.id.numA_MUA);
         vo = findViewById(R.id.numVini_MUA);
@@ -48,6 +51,14 @@ public class MUA extends AppCompatActivity {
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_spinner_item,opciones_mua);
         spn_opciones_mua.setAdapter(adapter);
+
+        btn_volver_mua.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent volver_mua = new Intent(MUA.this, OpcionesMecanica.class);
+                startActivity(volver_mua);
+            }
+        });
 
         btn_calcular_mua.setOnClickListener(new View.OnClickListener() {
             @Override
