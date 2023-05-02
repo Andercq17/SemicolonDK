@@ -21,7 +21,7 @@ public class CaidaLibre extends AppCompatActivity {
     Button btn_calcular;
     Spinner spn_opciones;
 
-
+    
     TextView txt_calculado;
     ImageButton btn_volver_cl;
     EditText h, vo, vf, t;
