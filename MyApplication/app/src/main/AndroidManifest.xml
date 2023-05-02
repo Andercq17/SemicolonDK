@@ -6,47 +6,47 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/loguito"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/loguito_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".Formulas"
+            android:name="edu.example.myapplication.Formulas"
             android:exported="false" />
         <activity
-            android:name=".FlujoMagnetico"
+            android:name="edu.example.myapplication.FlujoMagnetico"
             android:exported="false" />
         <activity
-            android:name=".HelmHoltz"
+            android:name="edu.example.myapplication.HelmHoltz"
             android:exported="false" />
         <activity
-            android:name=".LAmpere"
+            android:name="edu.example.myapplication.LAmpere"
             android:exported="false" />
         <activity
-            android:name=".FMCorriente"
+            android:name="edu.example.myapplication.FMCorriente"
             android:exported="false" />
         <activity
-            android:name=".FMCarga"
+            android:name="edu.example.myapplication.FMCarga"
             android:exported="false" />
         <activity
-            android:name=".OpcionesMagnetismo"
+            android:name="edu.example.myapplication.OpcionesMagnetismo"
             android:exported="false" />
         <activity
-            android:name=".MUA"
+            android:name="edu.example.myapplication.MUA"
             android:exported="false" />
         <activity
-            android:name=".CaidaLibre"
+            android:name="edu.example.myapplication.CaidaLibre"
             android:exported="false" />
         <activity
-            android:name=".OpcionesMecanica"
+            android:name="edu.example.myapplication.OpcionesMecanica"
             android:exported="false" />
         <activity
-            android:name=".MainMenu"
+            android:name="edu.example.myapplication.MainMenu"
             android:exported="false" />
         <activity
-            android:name=".Splash"
+            android:name="edu.example.myapplication.Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
