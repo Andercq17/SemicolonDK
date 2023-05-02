@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".LAmpere">
 
     <ScrollView
@@ -29,6 +30,7 @@
                     android:layout_width="8dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@null"
                     android:contentDescription="Volver"
                     app:srcCompat="@drawable/volver" />
 
@@ -40,7 +42,8 @@
                     android:gravity="center"
                     android:scaleX="1.8"
                     android:scaleY="1.8"
-                    android:text="Ley ampere" />
+                    android:text="Ley ampere"
+                    android:textColor="#000000" />
 
                 <ImageView
                     android:id="@+id/imageView23"
@@ -64,7 +67,8 @@
                 android:paddingHorizontal="200px"
                 android:scaleX="1.4"
                 android:scaleY="1.4"
-                android:text="Formulas:" />
+                android:text="Formulas:"
+                android:textColor="#000000" />
 
             <ImageView
                 android:id="@+id/imageView19"
@@ -89,7 +93,8 @@
                     android:gravity="center"
                     android:scaleX="2"
                     android:scaleY="2"
-                    android:text="dl:" />
+                    android:text="dl:"
+                    android:textColor="#000000" />
 
                 <EditText
                     android:id="@+id/txt_dl"
@@ -98,7 +103,8 @@
                     android:layout_weight="1"
                     android:ems="10"
                     android:hint="DLongitud"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textColor="#000000" />
 
                 <TextView
                     android:id="@+id/textView24"
@@ -108,7 +114,8 @@
                     android:gravity="center"
                     android:scaleX="2"
                     android:scaleY="2"
-                    android:text="I:" />
+                    android:text="I:"
+                    android:textColor="#000000" />
 
                 <EditText
                     android:id="@+id/txt_corriente"
@@ -117,7 +124,8 @@
                     android:layout_weight="1"
                     android:ems="10"
                     android:hint="Corriente"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textColor="#000000" />
             </LinearLayout>
 
             <Space
@@ -137,7 +145,8 @@
                     android:gravity="center"
                     android:scaleX="2"
                     android:scaleY="2"
-                    android:text="r:" />
+                    android:text="r:"
+                    android:textColor="#000000" />
 
                 <EditText
                     android:id="@+id/txt_radio"
@@ -146,7 +155,8 @@
                     android:layout_weight="1"
                     android:ems="10"
                     android:hint="Radio"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textColor="#000000" />
 
             </LinearLayout>
 
@@ -158,6 +168,8 @@
                 android:id="@+id/btn_calcular"
                 android:layout_width="match_parent"
                 android:layout_height="68dp"
+                android:background="@null"
+                android:backgroundTint="#009688"
                 android:text="Calcular" />
 
             <Space
@@ -177,7 +189,8 @@
                     android:gravity="center"
                     android:scaleX="2"
                     android:scaleY="2"
-                    android:text="Respuesta" />
+                    android:text="Respuesta"
+                    android:textColor="#000000" />
             </LinearLayout>
 
             <LinearLayout
@@ -191,6 +204,7 @@
                     android:layout_height="59dp"
                     android:text="0.0"
                     android:textAlignment="center"
+                    android:textColor="#000000"
                     android:textSize="20sp" />
             </LinearLayout>
 

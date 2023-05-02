@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".HelmHoltz">
 
     <ScrollView
@@ -29,6 +30,7 @@
                     android:layout_width="8dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@null"
                     android:contentDescription="Volver"
                     app:srcCompat="@drawable/volver" />
 
@@ -40,7 +42,8 @@
                     android:gravity="center"
                     android:scaleX="1.8"
                     android:scaleY="1.8"
-                    android:text="Helm-Holtz" />
+                    android:text="Helm-Holtz"
+                    android:textColor="#000000" />
 
                 <ImageView
                     android:id="@+id/imageView22"
@@ -63,7 +66,8 @@
                 android:paddingHorizontal="200px"
                 android:scaleX="1.4"
                 android:scaleY="1.4"
-                android:text="Bobinas:" />
+                android:text="Bobinas:"
+                android:textColor="#000000" />
 
             <ImageView
                 android:id="@+id/imageView14"
@@ -79,7 +83,8 @@
                 android:paddingHorizontal="200px"
                 android:scaleX="1.4"
                 android:scaleY="1.4"
-                android:text="Formulas:" />
+                android:text="Formulas:"
+                android:textColor="#000000" />
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -98,13 +103,14 @@
 
                 <TextView
                     android:id="@+id/textView24"
-                    android:layout_width="wrap_content"
+                    android:layout_width="49dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
                     android:scaleX="2"
                     android:scaleY="2"
-                    android:text="N:" />
+                    android:text="N:"
+                    android:textColor="#000000" />
 
                 <EditText
                     android:id="@+id/txt_espiras"
@@ -112,7 +118,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textColor="#000000" />
 
                 <TextView
                     android:id="@+id/textView6"
@@ -122,7 +129,8 @@
                     android:gravity="center"
                     android:scaleX="2"
                     android:scaleY="2"
-                    android:text="I:" />
+                    android:text="I:"
+                    android:textColor="#000000" />
 
                 <EditText
                     android:id="@+id/txt_corriente"
@@ -130,7 +138,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textColor="#000000" />
 
             </LinearLayout>
 
@@ -151,7 +160,8 @@
                     android:gravity="center"
                     android:scaleX="2"
                     android:scaleY="2"
-                    android:text="B:" />
+                    android:text="B:"
+                    android:textColor="#000000" />
 
                 <EditText
                     android:id="@+id/txt_campo"
@@ -159,7 +169,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textColor="#000000" />
 
                 <TextView
                     android:id="@+id/textView23"
@@ -169,7 +180,8 @@
                     android:gravity="center"
                     android:scaleX="2"
                     android:scaleY="2"
-                    android:text="R:" />
+                    android:text="R:"
+                    android:textColor="#000000" />
 
                 <EditText
                     android:id="@+id/txt_radio"
@@ -177,7 +189,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textColor="#000000" />
 
             </LinearLayout>
 
@@ -189,6 +202,8 @@
                 android:id="@+id/btn_calcular"
                 android:layout_width="match_parent"
                 android:layout_height="68dp"
+                android:background="@null"
+                android:backgroundTint="#009688"
                 android:text="Calcular" />
 
             <Space
@@ -208,7 +223,8 @@
                     android:gravity="center"
                     android:scaleX="2"
                     android:scaleY="2"
-                    android:text="Respuesta" />
+                    android:text="Respuesta"
+                    android:textColor="#000000" />
             </LinearLayout>
 
             <LinearLayout
@@ -222,6 +238,7 @@
                     android:layout_height="59dp"
                     android:text="0.0"
                     android:textAlignment="center"
+                    android:textColor="#000000"
                     android:textSize="20sp" />
 
             </LinearLayout>

@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTintMode="src_atop"
     tools:context=".OpcionesMagnetismo">
 
     <ScrollView
@@ -26,8 +28,9 @@
                     android:layout_width="8dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@null"
                     android:contentDescription="Volver"
-                    app:srcCompat="@drawable/volver" />
+                    app:srcCompat="@drawable/flecha_izquierda" />
 
                 <TextView
                     android:id="@+id/textView21"
@@ -37,7 +40,8 @@
                     android:gravity="center"
                     android:scaleX="1.8"
                     android:scaleY="1.8"
-                    android:text="Magnetismo" />
+                    android:text="Magnetismo"
+                    android:textColor="@color/design_default_color_on_secondary" />
 
                 <ImageView
                     android:id="@+id/imageView24"
@@ -55,48 +59,66 @@
                 android:layout_height="65dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="16dp"
+                android:background="@null"
+                android:backgroundTint="@color/teal_700"
                 android:gravity="center"
-                android:text="Flujo Magnético" />
+                android:text="Flujo Magnético"
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/btn_ley_ampere"
                 android:layout_width="360dp"
                 android:layout_height="65dp"
                 android:layout_marginBottom="16dp"
+                android:background="@null"
+                android:backgroundTint="#009688"
                 android:gravity="center"
-                android:text="Ley Ampere" />
+                android:text="Ley Ampere"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/btn_formulas"
                 android:layout_width="360dp"
                 android:layout_height="65dp"
                 android:layout_marginBottom="16dp"
+                android:background="@null"
+                android:backgroundTint="#009688"
                 android:gravity="center"
-                android:text="Formulas" />
+                android:text="Formulas"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/btn_fm_carga"
                 android:layout_width="360dp"
                 android:layout_height="65dp"
                 android:layout_marginBottom="16dp"
+                android:background="@null"
+                android:backgroundTint="#009688"
                 android:gravity="center"
-                android:text="Fuerza magnética en una carga" />
+                android:text="Fuerza magnética en una carga"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/btn_fm_corriente"
                 android:layout_width="360dp"
                 android:layout_height="65dp"
                 android:layout_marginBottom="16dp"
+                android:background="@null"
+                android:backgroundTint="#009688"
                 android:gravity="center"
-                android:text="F. M sobre corriente en un campo B" />
+                android:text="F. M sobre corriente en un campo B"
+                android:textColor="#FFFFFF" />
 
             <Button
                 android:id="@+id/btn_bobinas"
                 android:layout_width="360dp"
                 android:layout_height="65dp"
                 android:layout_marginBottom="16dp"
+                android:background="@null"
+                android:backgroundTint="#009688"
                 android:gravity="center"
-                android:text="Helm-Holtz" />
+                android:text="Helm-Holtz"
+                android:textColor="#FFFFFF" />
 
         </LinearLayout>
     </ScrollView>

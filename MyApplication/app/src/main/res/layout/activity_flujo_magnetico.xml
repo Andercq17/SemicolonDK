@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".FlujoMagnetico">
 
     <ScrollView
@@ -29,6 +30,7 @@
                     android:layout_width="8dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@null"
                     android:contentDescription="Volver"
                     app:srcCompat="@drawable/volver" />
 
@@ -40,7 +42,8 @@
                     android:gravity="center"
                     android:scaleX="1.8"
                     android:scaleY="1.8"
-                    android:text="Flujo magnético" />
+                    android:text="Flujo magnético"
+                    android:textColor="#000000" />
 
                 <ImageView
                     android:id="@+id/imageView16"
@@ -63,7 +66,8 @@
                 android:paddingHorizontal="200px"
                 android:scaleX="1.4"
                 android:scaleY="1.4"
-                android:text="Formulas:" />
+                android:text="Formulas:"
+                android:textColor="#000000" />
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -88,7 +92,8 @@
                     android:gravity="center"
                     android:scaleX="2"
                     android:scaleY="2"
-                    android:text="θ:" />
+                    android:text="θ:"
+                    android:textColor="#000000" />
 
                 <EditText
                     android:id="@+id/txt_angulo"
@@ -97,7 +102,10 @@
                     android:layout_weight="1"
                     android:ems="10"
                     android:hint="Angulo"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textColorLink="#000000" />
 
                 <TextView
                     android:id="@+id/lbl_area"
@@ -107,7 +115,8 @@
                     android:gravity="center"
                     android:scaleX="2"
                     android:scaleY="2"
-                    android:text="A:" />
+                    android:text="A:"
+                    android:textColor="#000000" />
 
                 <EditText
                     android:id="@+id/txt_area"
@@ -116,7 +125,10 @@
                     android:layout_weight="1"
                     android:ems="10"
                     android:hint="Area"
-                    android:inputType="number|numberDecimal" />
+                    android:inputType="number|numberDecimal"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textColorLink="#000000" />
 
             </LinearLayout>
 
@@ -137,7 +149,8 @@
                     android:gravity="center"
                     android:scaleX="2"
                     android:scaleY="2"
-                    android:text="B:" />
+                    android:text="B:"
+                    android:textColor="#000000" />
 
                 <EditText
                     android:id="@+id/txt_campo"
@@ -147,7 +160,10 @@
                     android:ems="10"
                     android:hint="Campo"
                     android:inputType="number|numberDecimal"
-                    android:minWidth="48dp" />
+                    android:minWidth="48dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textColorLink="#000000" />
 
             </LinearLayout>
 
@@ -159,6 +175,8 @@
                 android:id="@+id/btn_calcular"
                 android:layout_width="match_parent"
                 android:layout_height="68dp"
+                android:background="@null"
+                android:backgroundTint="#009688"
                 android:text="Calcular" />
 
             <LinearLayout
@@ -174,7 +192,8 @@
                     android:gravity="center"
                     android:scaleX="2"
                     android:scaleY="2"
-                    android:text="Respuesta" />
+                    android:text="Respuesta"
+                    android:textColor="#000000" />
             </LinearLayout>
 
             <Space
@@ -192,6 +211,7 @@
                     android:layout_height="59dp"
                     android:text="0.0"
                     android:textAlignment="center"
+                    android:textColor="#000000"
                     android:textSize="20sp" />
 
                 <Space

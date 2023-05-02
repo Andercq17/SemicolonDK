@@ -34,9 +34,11 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:background="@null"
                     android:scaleX="1.8"
                     android:scaleY="1.8"
-                    android:text="Formulas" />
+                    android:text="Formulas"
+                    android:textColor="#000000" />
 
                 <ImageView
                     android:id="@+id/imageView21"
@@ -60,7 +62,8 @@
                 android:paddingHorizontal="200px"
                 android:scaleX="1.4"
                 android:scaleY="1.4"
-                android:text="* F.M en Carga:" />
+                android:text="* F.M en Carga:"
+                android:textColor="#000000" />
 
             <ImageView
                 android:id="@+id/imageView17"
@@ -80,7 +83,8 @@
                 android:paddingHorizontal="200px"
                 android:scaleX="1.4"
                 android:scaleY="1.4"
-                android:text="* F.M en Corriente::" />
+                android:text="* F.M en Corriente::"
+                android:textColor="#000000" />
 
             <ImageView
                 android:id="@+id/imageView18"
@@ -104,7 +108,8 @@
                 android:paddingHorizontal="200px"
                 android:scaleX="1.4"
                 android:scaleY="1.4"
-                android:text="* Ley Ampere:" />
+                android:text="* Ley Ampere:"
+                android:textColor="#000000" />
 
             <ImageView
                 android:id="@+id/imageView11"
@@ -124,7 +129,8 @@
                 android:paddingHorizontal="200px"
                 android:scaleX="1.4"
                 android:scaleY="1.4"
-                android:text="* Flujo magnético:" />
+                android:text="* Flujo magnético:"
+                android:textColor="#000000" />
 
             <ImageView
                 android:id="@+id/imageView12"
@@ -144,7 +150,8 @@
                 android:paddingHorizontal="200px"
                 android:scaleX="1.4"
                 android:scaleY="1.4"
-                android:text="* Helm-Holtz:" />
+                android:text="* Helm-Holtz:"
+                android:textColor="#000000" />
 
             <ImageView
                 android:id="@+id/imageView13"
