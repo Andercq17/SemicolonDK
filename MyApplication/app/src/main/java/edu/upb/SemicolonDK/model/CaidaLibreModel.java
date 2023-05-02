@@ -1,4 +1,4 @@
-package com.example.myapplication.model;
+package edu.upb.SemicolonDK.model;
 
 public class CaidaLibreModel {
 

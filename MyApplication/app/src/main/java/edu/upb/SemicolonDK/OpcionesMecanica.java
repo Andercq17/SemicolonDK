@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package edu.upb.SemicolonDK;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
+import edu.upb.SemicolonDK.R;
 public class OpcionesMecanica extends AppCompatActivity {
 
     Button btn_CL, btn_MUA, btn_VLV;

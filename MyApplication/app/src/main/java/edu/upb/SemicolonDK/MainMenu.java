@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package edu.upb.SemicolonDK;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import edu.upb.SemicolonDK.R;
 
 public class MainMenu extends AppCompatActivity {
 

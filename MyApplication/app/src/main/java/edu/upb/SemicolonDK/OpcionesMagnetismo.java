@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package edu.upb.SemicolonDK;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+
+import edu.upb.SemicolonDK.R;
 
 public class OpcionesMagnetismo extends AppCompatActivity {
     Button btn_formulas, btn_fmcorriente, btn_fmcarga, btn_ampere, btn_helm, btn_flujo;

@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package edu.upb.SemicolonDK;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,8 +12,9 @@ import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import com.example.myapplication.model.CaidaLibreModel;
-import com.example.myapplication.model.MUAModel;
+import edu.upb.SemicolonDK.R;
+
+import edu.upb.SemicolonDK.model.MUAModel;
 
 import java.util.ArrayList;
 

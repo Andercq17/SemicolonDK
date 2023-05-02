@@ -13,40 +13,40 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".Formulas"
+            android:name="edu.upb.SemicolonDK.Formulas"
             android:exported="false" />
         <activity
-            android:name=".FlujoMagnetico"
+            android:name="edu.upb.SemicolonDK.FlujoMagnetico"
             android:exported="false" />
         <activity
-            android:name=".HelmHoltz"
+            android:name="edu.upb.SemicolonDK.HelmHoltz"
             android:exported="false" />
         <activity
-            android:name=".LAmpere"
+            android:name="edu.upb.SemicolonDK.LAmpere"
             android:exported="false" />
         <activity
-            android:name=".FMCorriente"
+            android:name="edu.upb.SemicolonDK.FMCorriente"
             android:exported="false" />
         <activity
-            android:name=".FMCarga"
+            android:name="edu.upb.SemicolonDK.FMCarga"
             android:exported="false" />
         <activity
-            android:name=".OpcionesMagnetismo"
+            android:name="edu.upb.SemicolonDK.OpcionesMagnetismo"
             android:exported="false" />
         <activity
-            android:name=".MUA"
+            android:name="edu.upb.SemicolonDK.MUA"
             android:exported="false" />
         <activity
-            android:name=".CaidaLibre"
+            android:name="edu.upb.SemicolonDK.CaidaLibre"
             android:exported="false" />
         <activity
-            android:name=".OpcionesMecanica"
+            android:name="edu.upb.SemicolonDK.OpcionesMecanica"
             android:exported="false" />
         <activity
-            android:name=".MainMenu"
+            android:name="edu.upb.SemicolonDK.MainMenu"
             android:exported="false" />
         <activity
-            android:name=".Splash"
+            android:name="edu.upb.SemicolonDK.Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

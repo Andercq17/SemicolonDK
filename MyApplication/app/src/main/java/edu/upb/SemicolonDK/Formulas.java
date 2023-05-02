@@ -1,13 +1,14 @@
-package com.example.myapplication;
+package edu.upb.SemicolonDK;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 
+
+import edu.upb.SemicolonDK.R;
 public class Formulas extends AppCompatActivity {
     ImageButton btn_volver;
     @Override

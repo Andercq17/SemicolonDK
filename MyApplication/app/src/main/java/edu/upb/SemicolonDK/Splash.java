@@ -1,9 +1,11 @@
-package com.example.myapplication;
+package edu.upb.SemicolonDK;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+
+import edu.upb.SemicolonDK.R;
 
 import java.util.Timer;
 import java.util.TimerTask;
