@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.upb.SemicolonDK"
+    package="edu.example.myapplication"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -19,43 +19,42 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/loguito_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
         <activity
-            android:name="edu.upb.SemicolonDK.Formulas"
+            android:name="edu.example.myapplication.Formulas"
             android:exported="false" />
         <activity
-            android:name="edu.upb.SemicolonDK.FlujoMagnetico"
+            android:name="edu.example.myapplication.FlujoMagnetico"
             android:exported="false" />
         <activity
-            android:name="edu.upb.SemicolonDK.HelmHoltz"
+            android:name="edu.example.myapplication.HelmHoltz"
             android:exported="false" />
         <activity
-            android:name="edu.upb.SemicolonDK.LAmpere"
+            android:name="edu.example.myapplication.LAmpere"
             android:exported="false" />
         <activity
-            android:name="edu.upb.SemicolonDK.FMCorriente"
+            android:name="edu.example.myapplication.FMCorriente"
             android:exported="false" />
         <activity
-            android:name="edu.upb.SemicolonDK.FMCarga"
+            android:name="edu.example.myapplication.FMCarga"
             android:exported="false" />
         <activity
-            android:name="edu.upb.SemicolonDK.OpcionesMagnetismo"
+            android:name="edu.example.myapplication.OpcionesMagnetismo"
             android:exported="false" />
         <activity
-            android:name="edu.upb.SemicolonDK.MUA"
+            android:name="edu.example.myapplication.MUA"
             android:exported="false" />
         <activity
-            android:name="edu.upb.SemicolonDK.CaidaLibre"
+            android:name="edu.example.myapplication.CaidaLibre"
             android:exported="false" />
         <activity
-            android:name="edu.upb.SemicolonDK.OpcionesMecanica"
+            android:name="edu.example.myapplication.OpcionesMecanica"
             android:exported="false" />
         <activity
-            android:name="edu.upb.SemicolonDK.MainMenu"
+            android:name="edu.example.myapplication.MainMenu"
             android:exported="false" />
         <activity
-            android:name="edu.upb.SemicolonDK.Splash"
+            android:name="edu.example.myapplication.Splash"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -66,7 +65,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="edu.upb.SemicolonDK.androidx-startup"
+            android:authorities="edu.example.myapplication.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

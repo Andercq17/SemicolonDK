@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context="edu.upb.SemicolonDK.FMCorriente">
+    tools:context="edu.example.myapplication.FMCorriente">
 
     <ScrollView
         android:layout_width="match_parent"

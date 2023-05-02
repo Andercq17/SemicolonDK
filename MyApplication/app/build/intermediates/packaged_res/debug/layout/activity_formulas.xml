@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="edu.upb.SemicolonDK.Formulas">
+    tools:context="edu.example.myapplication.Formulas">
 
     <ScrollView
         android:layout_width="match_parent"

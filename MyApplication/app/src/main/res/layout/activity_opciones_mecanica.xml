@@ -5,11 +5,7 @@
     android:id="@+id/Constraint"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
     tools:context="edu.example.myapplication.OpcionesMecanica">
-=======
-    tools:context="edu.upb.SemicolonDK.OpcionesMecanica">
->>>>>>> 94ba4b931d5f29b06966142beb2ae2404bf92da3
 
     <LinearLayout
         android:layout_width="match_parent"

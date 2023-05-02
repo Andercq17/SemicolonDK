@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:MyApplication/app/src/main/java/edu/example/myapplication/LAmpere.java
 package edu.example.myapplication;
-========
-package edu.upb.SemicolonDK;
->>>>>>>> 94ba4b931d5f29b06966142beb2ae2404bf92da3:MyApplication/app/src/main/java/edu/upb/SemicolonDK/LAmpere.java
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,12 +11,9 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-<<<<<<<< HEAD:MyApplication/app/src/main/java/edu/example/myapplication/LAmpere.java
 import edu.example.myapplication.R;
 
-========
-import edu.upb.SemicolonDK.R;
->>>>>>>> 94ba4b931d5f29b06966142beb2ae2404bf92da3:MyApplication/app/src/main/java/edu/upb/SemicolonDK/LAmpere.java
+
 public class LAmpere extends AppCompatActivity {
     ImageButton btn_volver;
 

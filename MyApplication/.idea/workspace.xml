@@ -4,25 +4,25 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64ddb4e8-a319-4e36-b720-357ddeeb6f0e" name="Changes" comment="">
+    <list default="true" id="722c53f9-8259-4d37-adb7-7b5d39bce7c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/edu/upb/SemicolonDK/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/myapplication/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/edu/example/myapplication/ExampleInstrumentedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/CaidaLibre.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/upb/SemicolonDK/CaidaLibre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/FMCarga.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/upb/SemicolonDK/FMCarga.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/FMCorriente.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/upb/SemicolonDK/FMCorriente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/FlujoMagnetico.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/upb/SemicolonDK/FlujoMagnetico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Formulas.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/upb/SemicolonDK/Formulas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/HelmHoltz.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/upb/SemicolonDK/HelmHoltz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/LAmpere.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/upb/SemicolonDK/LAmpere.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MUA.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/upb/SemicolonDK/MUA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/upb/SemicolonDK/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/OpcionesMagnetismo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/upb/SemicolonDK/OpcionesMagnetismo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/OpcionesMecanica.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/upb/SemicolonDK/OpcionesMecanica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Splash.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/upb/SemicolonDK/Splash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/model/CaidaLibreModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/upb/SemicolonDK/model/CaidaLibreModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/model/MUAModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/upb/SemicolonDK/model/MUAModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/CaidaLibre.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/example/myapplication/CaidaLibre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/FMCarga.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/example/myapplication/FMCarga.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/FMCorriente.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/example/myapplication/FMCorriente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/FlujoMagnetico.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/example/myapplication/FlujoMagnetico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Formulas.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/example/myapplication/Formulas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/HelmHoltz.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/example/myapplication/HelmHoltz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/LAmpere.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/example/myapplication/LAmpere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MUA.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/example/myapplication/MUA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/example/myapplication/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/OpcionesMagnetismo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/example/myapplication/OpcionesMagnetismo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/OpcionesMecanica.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/example/myapplication/OpcionesMecanica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Splash.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/example/myapplication/Splash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/model/CaidaLibreModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/example/myapplication/model/CaidaLibreModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/model/MUAModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/edu/example/myapplication/model/MUAModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_caida_libre.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_caida_libre.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_flujo_magnetico.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_flujo_magnetico.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fmcarga.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fmcarga.xml" afterDir="false" />
@@ -35,7 +35,7 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_opciones_magnetismo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_opciones_magnetismo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_opciones_mecanica.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_opciones_mecanica.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/splash.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/myapplication/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/edu/upb/SemicolonDK/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/myapplication/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/edu/example/myapplication/ExampleUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2PE5q3yG02k1unUOVia0gQEAIxk" />
+  <component name="ProjectId" id="2PFbuUERh8FUjDFgLkjMlVla7I7" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -64,7 +64,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/ander/Desktop/SemicolonDK/SemicolonDK/SemicolonDK/MyApplication"
+    "last_opened_file_path": "C:/Users/ander/Desktop/SemicolonDK/SemicolonDK/MyApplication"
   }
 }]]></component>
   <component name="RunManager">
@@ -126,15 +126,28 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="MyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="MyApplication" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="64ddb4e8-a319-4e36-b720-357ddeeb6f0e" name="Changes" comment="" />
-      <created>1683009587356</created>
+      <changelist id="722c53f9-8259-4d37-adb7-7b5d39bce7c4" name="Changes" comment="" />
+      <created>1683055999348</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1683009587356</updated>
+      <updated>1683055999348</updated>
     </task>
     <servers />
   </component>

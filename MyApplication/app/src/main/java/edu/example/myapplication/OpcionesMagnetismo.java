@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:MyApplication/app/src/main/java/edu/example/myapplication/OpcionesMagnetismo.java
 package edu.example.myapplication;
-========
-package edu.upb.SemicolonDK;
->>>>>>>> 94ba4b931d5f29b06966142beb2ae2404bf92da3:MyApplication/app/src/main/java/edu/upb/SemicolonDK/OpcionesMagnetismo.java
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,11 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-<<<<<<<< HEAD:MyApplication/app/src/main/java/edu/example/myapplication/OpcionesMagnetismo.java
 import edu.example.myapplication.R;
-========
-import edu.upb.SemicolonDK.R;
->>>>>>>> 94ba4b931d5f29b06966142beb2ae2404bf92da3:MyApplication/app/src/main/java/edu/upb/SemicolonDK/OpcionesMagnetismo.java
+
 
 public class OpcionesMagnetismo extends AppCompatActivity {
     Button btn_formulas, btn_fmcorriente, btn_fmcarga, btn_ampere, btn_helm, btn_flujo;

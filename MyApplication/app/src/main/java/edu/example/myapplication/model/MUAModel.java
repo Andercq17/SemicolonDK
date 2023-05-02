@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:MyApplication/app/src/main/java/edu/example/myapplication/model/MUAModel.java
 package edu.example.myapplication.model;
-========
-package edu.upb.SemicolonDK.model;
->>>>>>>> 94ba4b931d5f29b06966142beb2ae2404bf92da3:MyApplication/app/src/main/java/edu/upb/SemicolonDK/model/MUAModel.java
 
 public class MUAModel {
 

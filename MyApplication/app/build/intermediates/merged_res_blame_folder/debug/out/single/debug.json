@@ -1,234 +1,234 @@
 [
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/drawable_flecha_izquierda.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/drawable/flecha_izquierda.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/layout_activity_fmcarga.xml.flat",
+        "source": "edu.example.myapplication.app-main-26:/layout/activity_fmcarga.xml"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/drawable_ffbobinas.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/drawable/ffbobinas.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/drawable_fbobinas.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/drawable/fbobinas.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/layout_activity_movimiento_uniforme_acelerado.xml.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/layout/activity_movimiento_uniforme_acelerado.xml"
+        "merged": "edu.example.myapplication.app-merged_res-24:/drawable_volver.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/drawable/volver.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-xxxhdpi_loguito.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-xxxhdpi/loguito.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/layout_activity_flujo_magnetico.xml.flat",
+        "source": "edu.example.myapplication.app-main-26:/layout/activity_flujo_magnetico.xml"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-mdpi_loguito_foreground.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-mdpi/loguito_foreground.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/layout_activity_opciones_magnetismo.xml.flat",
+        "source": "edu.example.myapplication.app-main-26:/layout/activity_opciones_magnetismo.xml"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-xxxhdpi_loguito_round.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-xxxhdpi/loguito_round.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/layout_activity_formulas.xml.flat",
+        "source": "edu.example.myapplication.app-main-26:/layout/activity_formulas.xml"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-xhdpi_loguito_round.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-xhdpi/loguito_round.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/xml_backup_rules.xml.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/xml/backup_rules.xml"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-hdpi_loguito_round.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-hdpi/loguito_round.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/drawable_ffcorriente.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/drawable/ffcorriente.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/layout_activity_movimiento_uniforme_acelerado.xml.flat",
+        "source": "edu.example.myapplication.app-main-26:/layout/activity_movimiento_uniforme_acelerado.xml"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/layout_activity_formulas.xml.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/layout/activity_formulas.xml"
+        "merged": "edu.example.myapplication.app-merged_res-24:/layout_splash.xml.flat",
+        "source": "edu.example.myapplication.app-main-26:/layout/splash.xml"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/drawable_ffbiot.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/drawable/ffbiot.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-anydpi-v26_loguito.xml.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-anydpi-v26/loguito.xml"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "edu.example.myapplication.app-merged_res-24:/layout_activity_main_menu.xml.flat",
+        "source": "edu.example.myapplication.app-main-26:/layout/activity_main_menu.xml"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/drawable_formulas_cl.jpg.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/drawable/formulas_cl.jpg"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xxxhdpi_loguito_foreground.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-xxxhdpi/loguito_foreground.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-anydpi-v26_loguito_round.xml.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-anydpi-v26/loguito_round.xml"
+        "merged": "edu.example.myapplication.app-merged_res-24:/layout_activity_helm_holtz.xml.flat",
+        "source": "edu.example.myapplication.app-main-26:/layout/activity_helm_holtz.xml"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "edu.example.myapplication.app-merged_res-24:/layout_activity_opciones_mecanica.xml.flat",
+        "source": "edu.example.myapplication.app-main-26:/layout/activity_opciones_mecanica.xml"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xxxhdpi_loguito_round.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-xxxhdpi/loguito_round.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-hdpi_loguito_round.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-hdpi/loguito_round.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xxxhdpi_loguito.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-xxxhdpi/loguito.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/layout_activity_opciones_mecanica.xml.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/layout/activity_opciones_mecanica.xml"
+        "merged": "edu.example.myapplication.app-merged_res-24:/drawable_ffbiot.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/drawable/ffbiot.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/drawable_loguito_background.xml.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/drawable/loguito_background.xml"
+        "merged": "edu.example.myapplication.app-merged_res-24:/drawable_fflujo.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/drawable/fflujo.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-xxxhdpi_loguito_foreground.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-xxxhdpi/loguito_foreground.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xhdpi_loguito_foreground.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-xhdpi/loguito_foreground.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/drawable_fbobinas.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/drawable/fbobinas.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-mdpi_loguito_foreground.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-mdpi/loguito_foreground.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/layout_activity_fmcorriente.xml.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/layout/activity_fmcorriente.xml"
+        "merged": "edu.example.myapplication.app-merged_res-24:/drawable_ic_launcher_background.xml.flat",
+        "source": "edu.example.myapplication.app-main-26:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/drawable_ffampere.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/drawable/ffampere.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/drawable_formulas_mua.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/drawable/formulas_mua.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "edu.example.myapplication.app-merged_res-24:/xml_data_extraction_rules.xml.flat",
+        "source": "edu.example.myapplication.app-main-26:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-mdpi_loguito_round.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-mdpi/loguito_round.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-anydpi-v26_loguito.xml.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-anydpi-v26/loguito.xml"
+        "merged": "edu.example.myapplication.app-merged_res-24:/drawable_ffmcarga.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/drawable/ffmcarga.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/layout_activity_fmcarga.xml.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/layout/activity_fmcarga.xml"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xhdpi_loguito.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-xhdpi/loguito.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/drawable_ffmcarga.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/drawable/ffmcarga.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/drawable_fondo.jpg.flat",
+        "source": "edu.example.myapplication.app-main-26:/drawable/fondo.jpg"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/drawable_fondo.jpg.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/drawable/fondo.jpg"
+        "merged": "edu.example.myapplication.app-merged_res-24:/xml_backup_rules.xml.flat",
+        "source": "edu.example.myapplication.app-main-26:/xml/backup_rules.xml"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-xxhdpi_loguito.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-xxhdpi/loguito.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-xxhdpi_loguito_foreground.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-xxhdpi/loguito_foreground.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/drawable_formulas_mua.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/drawable/formulas_mua.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/drawable_volver.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/drawable/volver.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/drawable_ffcorriente.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/drawable/ffcorriente.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/layout_splash.xml.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/layout/splash.xml"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-anydpi-v26_loguito_round.xml.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-anydpi-v26/loguito_round.xml"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-hdpi_loguito.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-hdpi/loguito.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/drawable_flecha_izquierda.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/drawable/flecha_izquierda.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/xml_data_extraction_rules.xml.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/xml/data_extraction_rules.xml"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-hdpi_loguito.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-hdpi/loguito.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "edu.example.myapplication.app-merged_res-24:/layout_activity_lampere.xml.flat",
+        "source": "edu.example.myapplication.app-main-26:/layout/activity_lampere.xml"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-xxhdpi_loguito_round.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-xxhdpi/loguito_round.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/layout_activity_caida_libre.xml.flat",
+        "source": "edu.example.myapplication.app-main-26:/layout/activity_caida_libre.xml"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-mdpi_loguito.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-mdpi/loguito.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-mdpi_loguito.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-mdpi/loguito.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/layout_activity_helm_holtz.xml.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/layout/activity_helm_holtz.xml"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-mdpi_loguito_round.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-mdpi/loguito_round.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/drawable_fflujo.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/drawable/fflujo.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/drawable_ffbobinas.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/drawable/ffbobinas.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "edu.example.myapplication.app-merged_res-24:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "edu.example.myapplication.app-main-26:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/layout_activity_opciones_magnetismo.xml.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/layout/activity_opciones_magnetismo.xml"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-xhdpi_loguito.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-xhdpi/loguito.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/layout_activity_fmcorriente.xml.flat",
+        "source": "edu.example.myapplication.app-main-26:/layout/activity_fmcorriente.xml"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/layout_activity_caida_libre.xml.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/layout/activity_caida_libre.xml"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-hdpi_loguito_foreground.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-hdpi/loguito_foreground.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/layout_activity_flujo_magnetico.xml.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/layout/activity_flujo_magnetico.xml"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xxhdpi_loguito_foreground.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-xxhdpi/loguito_foreground.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/layout_activity_main_menu.xml.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/layout/activity_main_menu.xml"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xxhdpi_loguito_round.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-xxhdpi/loguito_round.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/drawable_ic_launcher_background.xml.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/drawable/ic_launcher_background.xml"
+        "merged": "edu.example.myapplication.app-merged_res-24:/drawable_formulas_cl.jpg.flat",
+        "source": "edu.example.myapplication.app-main-26:/drawable/formulas_cl.jpg"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/layout_activity_lampere.xml.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/layout/activity_lampere.xml"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xhdpi_loguito_round.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-xhdpi/loguito_round.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-hdpi_loguito_foreground.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-hdpi/loguito_foreground.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "edu.example.myapplication.app-merged_res-24:/drawable_ffampere.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/drawable/ffampere.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xxhdpi_loguito.png.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-xxhdpi/loguito.png"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "edu.example.myapplication.app-main-26:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "edu.upb.SemicolonDK.app-merged_res-24:/mipmap-xhdpi_loguito_foreground.png.flat",
-        "source": "edu.upb.SemicolonDK.app-main-26:/mipmap-xhdpi/loguito_foreground.png"
+        "merged": "edu.example.myapplication.app-merged_res-24:/drawable_loguito_background.xml.flat",
+        "source": "edu.example.myapplication.app-main-26:/drawable/loguito_background.xml"
     }
 ]

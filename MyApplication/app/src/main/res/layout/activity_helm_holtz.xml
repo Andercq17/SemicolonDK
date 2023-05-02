@@ -5,11 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-<<<<<<< HEAD
     tools:context="edu.example.myapplication.HelmHoltz">
-=======
-    tools:context="edu.upb.SemicolonDK.HelmHoltz">
->>>>>>> 94ba4b931d5f29b06966142beb2ae2404bf92da3
 
     <ScrollView
         android:layout_width="match_parent"

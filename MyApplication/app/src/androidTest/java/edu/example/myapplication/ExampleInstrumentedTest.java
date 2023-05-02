@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:MyApplication/app/src/androidTest/java/edu/example/myapplication/ExampleInstrumentedTest.java
 package edu.example.myapplication;
-========
-package edu.upb.SemicolonDK;
->>>>>>>> 94ba4b931d5f29b06966142beb2ae2404bf92da3:MyApplication/app/src/androidTest/java/edu/upb/SemicolonDK/ExampleInstrumentedTest.java
 
 import android.content.Context;
 

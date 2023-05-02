@@ -3,19 +3,11 @@ plugins {
 }
 
 android {
-<<<<<<< HEAD
     namespace 'edu.example.myapplication'
     compileSdk 33
 
     defaultConfig {
         applicationId "edu.example.myapplication"
-=======
-    namespace 'edu.upb.SemicolonDK'
-    compileSdk 33
-
-    defaultConfig {
-        applicationId "edu.upb.SemicolonDK"
->>>>>>> 94ba4b931d5f29b06966142beb2ae2404bf92da3
         minSdk 28
         targetSdk 33
         versionCode 1
