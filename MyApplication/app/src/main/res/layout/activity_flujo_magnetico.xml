@@ -30,7 +30,7 @@
                     android:layout_height="112dp"
                     android:layout_weight="1"
                     android:contentDescription="boton de regreso"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    tools:srcCompat="@drawable/flecha_izquierda" />
 
                 <TextView
                     android:id="@+id/textView21"
@@ -48,7 +48,7 @@
                     android:layout_height="116dp"
                     android:layout_weight="1"
                     android:contentDescription="Boton logo"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    tools:srcCompat="@drawable/ic_launcher_foreground" />
             </LinearLayout>
 
             <Space
@@ -69,7 +69,7 @@
                 android:id="@+id/imageView16"
                 android:layout_width="match_parent"
                 android:layout_height="162dp"
-                tools:srcCompat="@tools:sample/avatars" />
+                tools:srcCompat="@drawable/fflujo" />
 
             <Space
                 android:layout_width="match_parent"
@@ -81,7 +81,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView24"
+                    android:id="@+id/lbl_angulo"
                     android:layout_width="51dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -92,14 +92,15 @@
 
                 <EditText
                     android:id="@+id/txt_angulo"
-                    android:layout_width="113dp"
+                    android:layout_width="104dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
+                    android:hint="Angulo"
                     android:inputType="number|numberDecimal" />
 
                 <TextView
-                    android:id="@+id/textView6"
+                    android:id="@+id/lbl_area"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -114,6 +115,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
+                    android:hint="Area"
                     android:inputType="number|numberDecimal" />
 
             </LinearLayout>
@@ -128,8 +130,8 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView25"
-                    android:layout_width="53dp"
+                    android:id="@+id/lbl_campo"
+                    android:layout_width="48dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
@@ -139,14 +141,16 @@
 
                 <EditText
                     android:id="@+id/txt_campo"
-                    android:layout_width="106dp"
+                    android:layout_width="102dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="number|numberDecimal" />
+                    android:hint="Campo"
+                    android:inputType="number|numberDecimal"
+                    android:minWidth="48dp" />
 
                 <TextView
-                    android:id="@+id/textView23"
+                    android:id="@+id/lbl_phi"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -161,6 +165,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
+                    android:hint="Phi"
                     android:inputType="number|numberDecimal" />
 
             </LinearLayout>
@@ -221,7 +226,7 @@
                     android:layout_height="34dp" />
 
                 <TextView
-                    android:id="@+id/textView31"
+                    android:id="@+id/txt_res"
                     android:layout_width="221dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"

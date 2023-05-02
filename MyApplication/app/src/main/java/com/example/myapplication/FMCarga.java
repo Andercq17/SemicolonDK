@@ -20,6 +20,7 @@ public class FMCarga extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fmcarga);
         btn_volver = findViewById(R.id.imgBtn_volver);
+        spn_opciones=(Spinner)findViewById(R.id.cb);
         opciones.add("θ");
         opciones.add("V");
         opciones.add("B");

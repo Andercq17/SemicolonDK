@@ -20,6 +20,7 @@ public class LBiotSavart extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lbiot_savart);
         btn_volver = findViewById(R.id.imgBtn_volver);
+        spn_opciones=(Spinner)findViewById(R.id.cb);
         opciones.add("dl");
         opciones.add("I");
         opciones.add("B");

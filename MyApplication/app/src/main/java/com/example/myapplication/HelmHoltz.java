@@ -20,6 +20,7 @@ public class HelmHoltz extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_helm_holtz);
         btn_volver = findViewById(R.id.imgBtn_volver);
+        spn_opciones=(Spinner)findViewById(R.id.cb);
         opciones.add("N");
         opciones.add("R");
         opciones.add("I");

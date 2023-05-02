@@ -39,7 +39,7 @@
                 android:gravity="center"
                 android:scaleX="1.8"
                 android:scaleY="1.8"
-                android:text="F. M. en corriente" />
+                android:text="Magnetismo" />
 
             <ImageButton
                 android:id="@+id/imageButton2"
@@ -49,6 +49,14 @@
                 android:contentDescription="Boton logo"
                 tools:srcCompat="@tools:sample/avatars" />
         </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_ley_ampere"
+            android:layout_width="360dp"
+            android:layout_height="65dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Ley Ampere" />
 
         <Button
             android:id="@+id/btn_flujo"
@@ -66,14 +74,6 @@
             android:layout_marginBottom="16dp"
             android:gravity="center"
             android:text="Formulas" />
-
-        <Button
-            android:id="@+id/btn_ley_ampere"
-            android:layout_width="360dp"
-            android:layout_height="65dp"
-            android:layout_marginBottom="16dp"
-            android:gravity="center"
-            android:text="Ley Ampere" />
 
         <Button
             android:id="@+id/btn_fm_carga"

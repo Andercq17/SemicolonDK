@@ -5,15 +5,20 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Adapter;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.Spinner;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
 public class FlujoMagnetico extends AppCompatActivity {
     ImageButton btn_volver;
     Spinner spn_opciones;
+    TextView txt_respuesta;
     ArrayList<String> opciones = new ArrayList<String>();
 
     @Override
@@ -21,6 +26,7 @@ public class FlujoMagnetico extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_flujo_magnetico);
         btn_volver = findViewById(R.id.imgBtn_volver);
+        txt_respuesta=findViewById(R.id.txt_res);
         spn_opciones=findViewById(R.id.cb);
 
         opciones.add("θ");
@@ -38,5 +44,25 @@ public class FlujoMagnetico extends AppCompatActivity {
                 startActivity(menu);
             }
         });
+
+        spn_opciones.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                if (spn_opciones.getSelectedItem().toString()=="θ"){
+                    String perro="θ";
+                    Toast.makeText(getApplicationContext(),"θ",Toast.LENGTH_LONG).show();
+                }else{
+                    Toast.makeText(getApplicationContext(),"otro",Toast.LENGTH_LONG).show();
+
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+//        String text = spn_opciones.getSelectedItem().toString();
+
     }
 }

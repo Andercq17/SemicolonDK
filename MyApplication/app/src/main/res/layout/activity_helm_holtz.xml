@@ -30,7 +30,7 @@
                     android:layout_height="112dp"
                     android:layout_weight="1"
                     android:contentDescription="boton de regreso"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    tools:srcCompat="@drawable/flecha_izquierda" />
 
                 <TextView
                     android:id="@+id/textView21"
@@ -40,7 +40,7 @@
                     android:gravity="center"
                     android:scaleX="1.8"
                     android:scaleY="1.8"
-                    android:text="Flujo magnético" />
+                    android:text="Helm-Holtz" />
 
                 <ImageButton
                     android:id="@+id/imageButton2"
@@ -48,7 +48,7 @@
                     android:layout_height="116dp"
                     android:layout_weight="1"
                     android:contentDescription="Boton logo"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    tools:srcCompat="@drawable/ic_launcher_foreground" />
             </LinearLayout>
 
             <Space
@@ -69,7 +69,7 @@
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="151dp"
-                tools:srcCompat="@tools:sample/avatars" />
+                tools:srcCompat="@drawable/fbobinas" />
 
             <TextView
                 android:id="@+id/textView9"
@@ -85,7 +85,7 @@
                 android:id="@+id/imageView16"
                 android:layout_width="match_parent"
                 android:layout_height="162dp"
-                tools:srcCompat="@tools:sample/avatars" />
+                tools:srcCompat="@drawable/ffbobinas" />
 
             <Space
                 android:layout_width="match_parent"
@@ -237,7 +237,7 @@
                     android:layout_height="34dp" />
 
                 <TextView
-                    android:id="@+id/textView31"
+                    android:id="@+id/txt_res"
                     android:layout_width="221dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"

@@ -19,13 +19,16 @@ public class LAmpere extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lampere);
+
         btn_volver = findViewById(R.id.imgBtn_volver);
         opciones.add("dl");
         opciones.add("I");
         opciones.add("B");
+        spn_opciones=(Spinner)findViewById(R.id.cb);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_spinner_item,opciones);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item,opciones);
         spn_opciones.setAdapter(adapter);
+
         btn_volver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

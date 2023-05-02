@@ -26,7 +26,7 @@
                     android:layout_height="112dp"
                     android:layout_weight="1"
                     android:contentDescription="boton de regreso"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    tools:srcCompat="@drawable/flecha_izquierda" />
 
                 <TextView
                     android:id="@+id/textView21"
@@ -44,7 +44,7 @@
                     android:layout_height="116dp"
                     android:layout_weight="1"
                     android:contentDescription="Boton logo"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    tools:srcCompat="@drawable/ic_launcher_foreground" />
             </LinearLayout>
 
             <Space
@@ -64,8 +64,8 @@
             <ImageView
                 android:id="@+id/imageView16"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:layout_height="211dp"
+                tools:srcCompat="@drawable/ffmcarga" />
 
             <Space
                 android:layout_width="match_parent"
@@ -84,8 +84,8 @@
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:layout_height="110dp"
+                tools:srcCompat="@drawable/ffcorriente" />
 
             <Space
                 android:layout_width="match_parent"
@@ -105,7 +105,7 @@
                 android:id="@+id/imageView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:srcCompat="@tools:sample/avatars" />
+                tools:srcCompat="@drawable/ffbiot" />
 
             <Space
                 android:layout_width="match_parent"
@@ -124,8 +124,8 @@
             <ImageView
                 android:id="@+id/imageView12"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:layout_height="187dp"
+                tools:srcCompat="@drawable/ffampere" />
 
             <Space
                 android:layout_width="match_parent"
@@ -144,8 +144,8 @@
             <ImageView
                 android:id="@+id/imageView13"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:layout_height="103dp"
+                tools:srcCompat="@drawable/fflujo" />
 
             <Space
                 android:layout_width="match_parent"
@@ -164,8 +164,8 @@
             <ImageView
                 android:id="@+id/imageView14"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:layout_height="188dp"
+                tools:srcCompat="@drawable/ffbobinas" />
 
             <Space
                 android:layout_width="match_parent"
