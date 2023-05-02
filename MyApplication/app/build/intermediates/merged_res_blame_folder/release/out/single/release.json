@@ -1,0 +1,234 @@
+[
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\layout_activity_movimiento_uniforme_acelerado.xml.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\layout\\activity_movimiento_uniforme_acelerado.xml"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\layout_activity_opciones_mecanica.xml.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\layout\\activity_opciones_mecanica.xml"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-hdpi_loguito_round.png.flat",
+        "source": "edu.example.myapplication.app-main-25:/mipmap-hdpi/loguito_round.png"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\drawable_formulas_mua.png.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\drawable\\formulas_mua.png"
+    },
+    {
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-anydpi-v26_loguito.xml.flat",
+        "source": "edu.example.myapplication.app-main-25:/mipmap-anydpi-v26/loguito.xml"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xxxhdpi_loguito_foreground.png.flat",
+        "source": "edu.example.myapplication.app-main-25:/mipmap-xxxhdpi/loguito_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\layout_activity_caida_libre.xml.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\layout\\activity_caida_libre.xml"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\layout_activity_formulas.xml.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\layout\\activity_formulas.xml"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\drawable_ffbiot.png.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\drawable\\ffbiot.png"
+    },
+    {
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xxxhdpi_loguito_round.png.flat",
+        "source": "edu.example.myapplication.app-main-25:/mipmap-xxxhdpi/loguito_round.png"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\layout_activity_lampere.xml.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\layout\\activity_lampere.xml"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\drawable_fondo.jpg.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\drawable\\fondo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\layout_activity_flujo_magnetico.xml.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\layout\\activity_flujo_magnetico.xml"
+    },
+    {
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xxxhdpi_loguito.png.flat",
+        "source": "edu.example.myapplication.app-main-25:/mipmap-xxxhdpi/loguito.png"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\drawable_ffampere.png.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\drawable\\ffampere.png"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\layout_activity_main_menu.xml.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\layout\\activity_main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\layout_activity_helm_holtz.xml.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\layout\\activity_helm_holtz.xml"
+    },
+    {
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xhdpi_loguito_foreground.png.flat",
+        "source": "edu.example.myapplication.app-main-25:/mipmap-xhdpi/loguito_foreground.png"
+    },
+    {
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-mdpi_loguito_foreground.png.flat",
+        "source": "edu.example.myapplication.app-main-25:/mipmap-mdpi/loguito_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\drawable_flecha_izquierda.png.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\drawable\\flecha_izquierda.png"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\drawable_fbobinas.png.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\drawable\\fbobinas.png"
+    },
+    {
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xhdpi_loguito.png.flat",
+        "source": "edu.example.myapplication.app-main-25:/mipmap-xhdpi/loguito.png"
+    },
+    {
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-anydpi-v26_loguito_round.xml.flat",
+        "source": "edu.example.myapplication.app-main-25:/mipmap-anydpi-v26/loguito_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\layout_activity_fmcorriente.xml.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\layout\\activity_fmcorriente.xml"
+    },
+    {
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-hdpi_loguito.png.flat",
+        "source": "edu.example.myapplication.app-main-25:/mipmap-hdpi/loguito.png"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\drawable_ffmcarga.png.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\drawable\\ffmcarga.png"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\drawable_formulas_cl.jpg.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\drawable\\formulas_cl.jpg"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-mdpi_loguito.png.flat",
+        "source": "edu.example.myapplication.app-main-25:/mipmap-mdpi/loguito.png"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\drawable_fflujo.png.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\drawable\\fflujo.png"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-mdpi_loguito_round.png.flat",
+        "source": "edu.example.myapplication.app-main-25:/mipmap-mdpi/loguito_round.png"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\drawable_ffbobinas.png.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\drawable\\ffbobinas.png"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\layout_activity_fmcarga.xml.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\layout\\activity_fmcarga.xml"
+    },
+    {
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-hdpi_loguito_foreground.png.flat",
+        "source": "edu.example.myapplication.app-main-25:/mipmap-hdpi/loguito_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xxhdpi_loguito_foreground.png.flat",
+        "source": "edu.example.myapplication.app-main-25:/mipmap-xxhdpi/loguito_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\layout_activity_opciones_magnetismo.xml.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\layout\\activity_opciones_magnetismo.xml"
+    },
+    {
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xxhdpi_loguito_round.png.flat",
+        "source": "edu.example.myapplication.app-main-25:/mipmap-xxhdpi/loguito_round.png"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\drawable_ffcorriente.png.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\drawable\\ffcorriente.png"
+    },
+    {
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xhdpi_loguito_round.png.flat",
+        "source": "edu.example.myapplication.app-main-25:/mipmap-xhdpi/loguito_round.png"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\drawable_volver.png.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\drawable\\volver.png"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "edu.example.myapplication.app-merged_res-24:/mipmap-xxhdpi_loguito.png.flat",
+        "source": "edu.example.myapplication.app-main-25:/mipmap-xxhdpi/loguito.png"
+    },
+    {
+        "merged": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-merged_res-24:\\layout_splash.xml.flat",
+        "source": "C:\\Users\\ander\\.gradle\\daemon\\8.0\\edu.example.myapplication.app-main-25:\\layout\\splash.xml"
+    },
+    {
+        "merged": "edu.example.myapplication.app-merged_res-24:/drawable_loguito_background.xml.flat",
+        "source": "edu.example.myapplication.app-main-25:/drawable/loguito_background.xml"
+    }
+]

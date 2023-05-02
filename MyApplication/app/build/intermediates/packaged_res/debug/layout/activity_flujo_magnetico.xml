@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="edu.upb.SemicolonDK.FlujoMagnetico">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imgBtn_volver"
+                    android:layout_width="8dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:contentDescription="Volver"
+                    app:srcCompat="@drawable/volver" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="155dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:scaleX="1.8"
+                    android:scaleY="1.8"
+                    android:text="Flujo magnético"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="26dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    app:srcCompat="@android:drawable/sym_def_app_icon" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:gravity="center|center_vertical"
+                android:paddingHorizontal="200px"
+                android:scaleX="1.4"
+                android:scaleY="1.4"
+                android:text="Formulas:"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                app:srcCompat="@drawable/fflujo" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbl_angulo"
+                    android:layout_width="51dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:scaleX="2"
+                    android:scaleY="2"
+                    android:text="θ:"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/txt_angulo"
+                    android:layout_width="104dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Angulo"
+                    android:inputType="number|numberDecimal"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textColorLink="#000000" />
+
+                <TextView
+                    android:id="@+id/lbl_area"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:scaleX="2"
+                    android:scaleY="2"
+                    android:text="A:"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/txt_area"
+                    android:layout_width="102dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Area"
+                    android:inputType="number|numberDecimal"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textColorLink="#000000" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbl_campo"
+                    android:layout_width="48dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:scaleX="2"
+                    android:scaleY="2"
+                    android:text="B:"
+                    android:textColor="#000000" />
+
+                <EditText
+                    android:id="@+id/txt_campo"
+                    android:layout_width="102dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Campo"
+                    android:inputType="number|numberDecimal"
+                    android:minWidth="48dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:textColorLink="#000000" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <Button
+                android:id="@+id/btn_calcular"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:background="@null"
+                android:backgroundTint="#009688"
+                android:text="Calcular" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:scaleX="2"
+                    android:scaleY="2"
+                    android:text="Respuesta"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txtCalculado"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:text="0.0"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <Space
+                    android:layout_width="14dp"
+                    android:layout_height="34dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

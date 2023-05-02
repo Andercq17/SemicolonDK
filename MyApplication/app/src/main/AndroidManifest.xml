@@ -13,6 +13,7 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
             android:name="edu.example.myapplication.Formulas"
             android:exported="false" />
         <activity
@@ -47,6 +48,42 @@
             android:exported="false" />
         <activity
             android:name="edu.example.myapplication.Splash"
+=======
+            android:name="edu.upb.SemicolonDK.Formulas"
+            android:exported="false" />
+        <activity
+            android:name="edu.upb.SemicolonDK.FlujoMagnetico"
+            android:exported="false" />
+        <activity
+            android:name="edu.upb.SemicolonDK.HelmHoltz"
+            android:exported="false" />
+        <activity
+            android:name="edu.upb.SemicolonDK.LAmpere"
+            android:exported="false" />
+        <activity
+            android:name="edu.upb.SemicolonDK.FMCorriente"
+            android:exported="false" />
+        <activity
+            android:name="edu.upb.SemicolonDK.FMCarga"
+            android:exported="false" />
+        <activity
+            android:name="edu.upb.SemicolonDK.OpcionesMagnetismo"
+            android:exported="false" />
+        <activity
+            android:name="edu.upb.SemicolonDK.MUA"
+            android:exported="false" />
+        <activity
+            android:name="edu.upb.SemicolonDK.CaidaLibre"
+            android:exported="false" />
+        <activity
+            android:name="edu.upb.SemicolonDK.OpcionesMecanica"
+            android:exported="false" />
+        <activity
+            android:name="edu.upb.SemicolonDK.MainMenu"
+            android:exported="false" />
+        <activity
+            android:name="edu.upb.SemicolonDK.Splash"
+>>>>>>> 94ba4b931d5f29b06966142beb2ae2404bf92da3
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

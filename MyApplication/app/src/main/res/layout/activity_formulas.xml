@@ -4,7 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context="edu.example.myapplication.Formulas">
+=======
+    tools:context="edu.upb.SemicolonDK.Formulas">
+>>>>>>> 94ba4b931d5f29b06966142beb2ae2404bf92da3
 
     <ScrollView
         android:layout_width="match_parent"

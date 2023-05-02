@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.example.myapplication.Formulas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imgBtn_volver"
+                    android:layout_width="8dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="Volver"
+                    app:srcCompat="@drawable/volver" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="155dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@null"
+                    android:scaleX="1.8"
+                    android:scaleY="1.8"
+                    android:text="Formulas"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="26dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:gravity="center|center_vertical"
+                android:paddingHorizontal="200px"
+                android:scaleX="1.4"
+                android:scaleY="1.4"
+                android:text="* F.M en Carga:"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                app:srcCompat="@drawable/ffmcarga" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="26dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:gravity="center|center_vertical"
+                android:paddingHorizontal="200px"
+                android:scaleX="1.4"
+                android:scaleY="1.4"
+                android:text="* F.M en Corriente::"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                app:srcCompat="@drawable/ffcorriente" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:gravity="center|center_vertical"
+                android:paddingHorizontal="200px"
+                android:scaleX="1.4"
+                android:scaleY="1.4"
+                android:text="* Ley Ampere:"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="211dp"
+                app:srcCompat="@drawable/ffampere" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:gravity="center|center_vertical"
+                android:paddingHorizontal="200px"
+                android:scaleX="1.4"
+                android:scaleY="1.4"
+                android:text="* Flujo magnético:"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                app:srcCompat="@drawable/fflujo" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:gravity="center|center_vertical"
+                android:paddingHorizontal="200px"
+                android:scaleX="1.4"
+                android:scaleY="1.4"
+                android:text="* Helm-Holtz:"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="211dp"
+                app:srcCompat="@drawable/ffbobinas" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
