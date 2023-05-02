@@ -22,11 +22,11 @@
 
                 <ImageButton
                     android:id="@+id/imgBtn_volver"
-                    android:layout_width="19dp"
-                    android:layout_height="112dp"
+                    android:layout_width="8dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:contentDescription="boton de regreso"
-                    tools:srcCompat="@drawable/flecha_izquierda" />
+                    android:contentDescription="Volver"
+                    app:srcCompat="@drawable/volver" />
 
                 <TextView
                     android:id="@+id/textView21"
@@ -38,13 +38,14 @@
                     android:scaleY="1.8"
                     android:text="Formulas" />
 
-                <ImageButton
-                    android:id="@+id/imageButton2"
-                    android:layout_width="35dp"
-                    android:layout_height="116dp"
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="26dp"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:contentDescription="Boton logo"
-                    tools:srcCompat="@drawable/ic_launcher_foreground" />
+                    android:clickable="false"
+                    app:srcCompat="@android:drawable/sym_def_app_icon" />
+
             </LinearLayout>
 
             <Space
@@ -90,22 +91,6 @@
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="22dp" />
-
-            <TextView
-                android:id="@+id/textView11"
-                android:layout_width="match_parent"
-                android:layout_height="57dp"
-                android:gravity="center|center_vertical"
-                android:paddingHorizontal="200px"
-                android:scaleX="1.4"
-                android:scaleY="1.4"
-                android:text="* Ley Biot-Savart::" />
-
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/ffbiot" />
 
             <Space
                 android:layout_width="match_parent"

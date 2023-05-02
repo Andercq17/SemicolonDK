@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -17,25 +19,22 @@ import java.util.ArrayList;
 
 public class FlujoMagnetico extends AppCompatActivity {
     ImageButton btn_volver;
-    Spinner spn_opciones;
+    Button btn_calc;
     TextView txt_respuesta;
-    ArrayList<String> opciones = new ArrayList<String>();
+    EditText txt_campo, txt_angulo, txt_area;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_flujo_magnetico);
         btn_volver = findViewById(R.id.imgBtn_volver);
-        txt_respuesta=findViewById(R.id.txt_res);
-        spn_opciones=findViewById(R.id.cb);
+        btn_calc=findViewById(R.id.btn_calcular);
+        txt_respuesta=findViewById(R.id.txtCalculado);
+        txt_angulo=findViewById(R.id.txt_angulo);
+        txt_campo=findViewById(R.id.txt_campo);
+        txt_area=findViewById(R.id.txt_area);
 
-        opciones.add("θ");
-        opciones.add("φ");
-        opciones.add("B");
-        opciones.add("A");
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_spinner_item,opciones);
-        spn_opciones.setAdapter(adapter);
 
         btn_volver.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,24 +44,21 @@ public class FlujoMagnetico extends AppCompatActivity {
             }
         });
 
-        spn_opciones.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        btn_calc.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                if (spn_opciones.getSelectedItem().toString()=="θ"){
-                    String perro="θ";
-                    Toast.makeText(getApplicationContext(),"θ",Toast.LENGTH_LONG).show();
+            public void onClick(View view) {
+                if(txt_campo.getText().toString()!="" ||txt_area.getText().toString()!=""||txt_angulo.getText().toString()!=""){
+                    double calc=Double.parseDouble(txt_campo.getText().toString())*Double.parseDouble(txt_area.getText().toString())*Math.cos(Double.parseDouble(txt_angulo.getText().toString()));
+                    //Toast.makeText(getApplicationContext(), String.valueOf(calc),Toast.LENGTH_LONG).show();
+                    txt_respuesta.setText(String.valueOf(calc));
+                    txt_angulo.setText("");
+                    txt_area.setText("");
+                    txt_campo.setText("");
                 }else{
-                    Toast.makeText(getApplicationContext(),"otro",Toast.LENGTH_LONG).show();
-
+                    Toast.makeText(getApplicationContext(), "θ, B o A. Está vacío",Toast.LENGTH_LONG).show();
                 }
             }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> adapterView) {
-
-            }
         });
-//        String text = spn_opciones.getSelectedItem().toString();
 
     }
 }

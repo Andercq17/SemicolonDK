@@ -26,11 +26,11 @@
 
                 <ImageButton
                     android:id="@+id/imgBtn_volver"
-                    android:layout_width="19dp"
-                    android:layout_height="112dp"
+                    android:layout_width="8dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:contentDescription="boton de regreso"
-                    tools:srcCompat="@drawable/flecha_izquierda" />
+                    android:contentDescription="Volver"
+                    app:srcCompat="@drawable/volver" />
 
                 <TextView
                     android:id="@+id/textView21"
@@ -42,13 +42,14 @@
                     android:scaleY="1.8"
                     android:text="F. M. en corriente" />
 
-                <ImageButton
-                    android:id="@+id/imageButton2"
-                    android:layout_width="35dp"
-                    android:layout_height="116dp"
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="26dp"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:contentDescription="Boton logo"
-                    tools:srcCompat="@drawable/ffcorriente" />
+                    android:clickable="false"
+                    app:srcCompat="@android:drawable/sym_def_app_icon" />
+
             </LinearLayout>
 
             <Space
@@ -91,7 +92,7 @@
                     android:text="θ:" />
 
                 <EditText
-                    android:id="@+id/txt_area"
+                    android:id="@+id/txt_angulo"
                     android:layout_width="102dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -109,7 +110,7 @@
                     android:text="I:" />
 
                 <EditText
-                    android:id="@+id/txt_angulo"
+                    android:id="@+id/txt_corriente"
                     android:layout_width="131dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -137,7 +138,7 @@
                     android:text="L:" />
 
                 <EditText
-                    android:id="@+id/txt_campo"
+                    android:id="@+id/txt_longitud"
                     android:layout_width="140dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -155,7 +156,7 @@
                     android:text="B:" />
 
                 <EditText
-                    android:id="@+id/editTextText11"
+                    android:id="@+id/txt_campo"
                     android:layout_width="173dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -168,57 +169,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="22dp" />
 
-            <LinearLayout
+            <Button
+                android:id="@+id/btn_calcular"
                 android:layout_width="match_parent"
-                android:layout_height="62dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textView25"
-                    android:layout_width="53dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:scaleX="2"
-                    android:scaleY="2"
-                    android:text="F:" />
-
-                <EditText
-                    android:id="@+id/txt_campo"
-                    android:layout_width="140dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:ems="10"
-                    android:inputType="number|numberDecimal" />
-
-            </LinearLayout>
+                android:layout_height="69dp"
+                android:text="Calcular" />
 
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="22dp" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="62dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textView25"
-                    android:layout_width="278dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:scaleX="2"
-                    android:scaleY="2"
-                    android:text="¿Qué desea calcular?" />
-
-                <Spinner
-                    android:id="@+id/cb"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1" />
-
-            </LinearLayout>
 
             <TextView
                 android:id="@+id/textView29"
@@ -235,28 +194,13 @@
                 android:layout_height="95dp"
                 android:orientation="horizontal">
 
-                <Space
-                    android:layout_width="14dp"
-                    android:layout_height="34dp" />
-
                 <TextView
-                    android:id="@+id/txt_res"
-                    android:layout_width="221dp"
-                    android:layout_height="50dp"
-                    android:layout_weight="1"
-                    android:background="#BABABA"
-                    android:gravity="right|center_vertical"
-                    android:paddingLeft="100px" />
-
-                <TextView
-                    android:id="@+id/textView32"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:scaleX="2"
-                    android:scaleY="2" />
-
+                    android:id="@+id/txtCalculado"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:text="0.0"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
             </LinearLayout>
 
             <Space

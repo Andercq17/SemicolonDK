@@ -9,14 +9,13 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 public class OpcionesMagnetismo extends AppCompatActivity {
-    Button btn_formulas, btn_fmcorriente, btn_fmcarga, btn_biot, btn_ampere, btn_helm, btn_flujo;
+    Button btn_formulas, btn_fmcorriente, btn_fmcarga, btn_ampere, btn_helm, btn_flujo;
     ImageButton btn_volver;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_opciones_magnetismo);
         btn_ampere = findViewById(R.id.btn_ley_ampere);
-        btn_biot = findViewById(R.id.btn_ley_biotsavart);
         btn_flujo = findViewById(R.id.btn_flujo);
         btn_fmcarga = findViewById(R.id.btn_fm_carga);
         btn_fmcorriente = findViewById(R.id.btn_fm_corriente);
@@ -50,13 +49,6 @@ public class OpcionesMagnetismo extends AppCompatActivity {
             public void onClick(View view) {
                 Intent flujo = new Intent(OpcionesMagnetismo.this, FlujoMagnetico.class);
                 startActivity(flujo);
-            }
-        });
-        btn_biot.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent biot = new Intent(OpcionesMagnetismo.this, LBiotSavart.class);
-                startActivity(biot);
             }
         });
         btn_formulas.setOnClickListener(new View.OnClickListener() {

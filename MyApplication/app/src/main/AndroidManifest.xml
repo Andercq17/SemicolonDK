@@ -25,9 +25,6 @@
             android:name=".LAmpere"
             android:exported="false" />
         <activity
-            android:name=".LBiotSavart"
-            android:exported="false" />
-        <activity
             android:name=".FMCorriente"
             android:exported="false" />
         <activity

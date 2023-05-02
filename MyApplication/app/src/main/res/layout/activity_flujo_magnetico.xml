@@ -26,11 +26,11 @@
 
                 <ImageButton
                     android:id="@+id/imgBtn_volver"
-                    android:layout_width="19dp"
-                    android:layout_height="112dp"
+                    android:layout_width="8dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:contentDescription="boton de regreso"
-                    tools:srcCompat="@drawable/flecha_izquierda" />
+                    android:contentDescription="Volver"
+                    app:srcCompat="@drawable/volver" />
 
                 <TextView
                     android:id="@+id/textView21"
@@ -42,13 +42,13 @@
                     android:scaleY="1.8"
                     android:text="Flujo magnético" />
 
-                <ImageButton
-                    android:id="@+id/imageButton2"
-                    android:layout_width="35dp"
-                    android:layout_height="116dp"
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="26dp"
+                    android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:contentDescription="Boton logo"
-                    tools:srcCompat="@drawable/ic_launcher_foreground" />
+                    android:clickable="false"
+                    app:srcCompat="@android:drawable/sym_def_app_icon" />
             </LinearLayout>
 
             <Space
@@ -149,56 +149,17 @@
                     android:inputType="number|numberDecimal"
                     android:minWidth="48dp" />
 
-                <TextView
-                    android:id="@+id/lbl_phi"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:scaleX="2"
-                    android:scaleY="2"
-                    android:text="φ:" />
-
-                <EditText
-                    android:id="@+id/txt_phi"
-                    android:layout_width="102dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:ems="10"
-                    android:hint="Phi"
-                    android:inputType="number|numberDecimal" />
-
             </LinearLayout>
 
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="22dp" />
 
-            <LinearLayout
+            <Button
+                android:id="@+id/btn_calcular"
                 android:layout_width="match_parent"
-                android:layout_height="62dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/textView25"
-                    android:layout_width="278dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:scaleX="2"
-                    android:scaleY="2"
-                    android:text="¿Qué desea calcular?" />
-
-                <Spinner
-                    android:id="@+id/cb"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1" />
-            </LinearLayout>
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="22dp" />
+                android:layout_height="68dp"
+                android:text="Calcular" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -216,32 +177,26 @@
                     android:text="Respuesta" />
             </LinearLayout>
 
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:orientation="horizontal">
 
+                <TextView
+                    android:id="@+id/txtCalculado"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:text="0.0"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
                 <Space
                     android:layout_width="14dp"
                     android:layout_height="34dp" />
-
-                <TextView
-                    android:id="@+id/txt_res"
-                    android:layout_width="221dp"
-                    android:layout_height="50dp"
-                    android:layout_weight="1"
-                    android:background="#BABABA"
-                    android:gravity="right|center_vertical"
-                    android:paddingLeft="100px" />
-
-                <TextView
-                    android:id="@+id/textView32"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:scaleX="2"
-                    android:scaleY="2" />
 
             </LinearLayout>
 
