@@ -66,10 +66,10 @@
                 android:text="Bobinas:" />
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imageView14"
                 android:layout_width="match_parent"
-                android:layout_height="151dp"
-                tools:srcCompat="@drawable/fbobinas" />
+                android:layout_height="229dp"
+                app:srcCompat="@drawable/fbobinas" />
 
             <TextView
                 android:id="@+id/textView9"
@@ -82,10 +82,10 @@
                 android:text="Formulas:" />
 
             <ImageView
-                android:id="@+id/imageView16"
+                android:id="@+id/imageView3"
                 android:layout_width="match_parent"
-                android:layout_height="162dp"
-                tools:srcCompat="@drawable/ffbobinas" />
+                android:layout_height="201dp"
+                app:srcCompat="@drawable/ffbobinas" />
 
             <Space
                 android:layout_width="match_parent"

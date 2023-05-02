@@ -66,10 +66,10 @@
                 android:text="Formulas:" />
 
             <ImageView
-                android:id="@+id/imageView16"
+                android:id="@+id/imageView8"
                 android:layout_width="match_parent"
-                android:layout_height="162dp"
-                tools:srcCompat="@drawable/ffmcarga" />
+                android:layout_height="202dp"
+                app:srcCompat="@drawable/ffmcarga" />
 
             <Space
                 android:layout_width="match_parent"
